@@ -1,135 +1,331 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IT 4403 | Advanced Web and Mobile Applications</title>
+
+    <meta name="description"
+          content="IT 4403 Advanced Web and Mobile Applications student course website at Kennesaw State University">
+
+    <title>IT 4403 | Advanced Web & Mobile Applications</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header class="hero">
-    <nav class="navbar">
-        <div class="logo">IT 4403</div>
+    <!-- Navigation -->
+    <header class="site-header">
+        <nav class="navbar">
 
-        <div class="nav-links">
-            <a href="index.html" class="active">Home</a>
-            <a href="exercises.html">Exercises</a>
-            <a href="labs.html">Labs</a>
-            <a href="projects.html">Projects</a>
-        </div>
-    </nav>
+            <a href="index.html" class="brand">
+                <span class="brand-mark">IT</span>
+                <span>
+                    <strong>IT 4403</strong>
+                    <small>Course Workspace</small>
+                </span>
+            </a>
 
-    <div class="hero-content">
-        <p class="eyebrow">Kennesaw State University</p>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="exercises.html">Exercises</a>
+                <a href="labs.html">Labs</a>
+                <a href="projects.html">Projects</a>
+            </div>
 
-        <h1>Advanced Web and<br>Mobile Applications</h1>
-
-        <p class="hero-text">
-            A student course website for IT 4403 featuring exercises,
-            laboratory activities, and project work.
-        </p>
-
-        <div class="hero-buttons">
-            <a href="labs.html" class="button primary">View Labs</a>
-            <a href="projects.html" class="button secondary">View Projects</a>
-        </div>
-    </div>
-</header>
+        </nav>
+    </header>
 
 
-<main>
+    <!-- Hero Section -->
+    <main>
 
-    <section class="section">
-        <div class="section-heading">
-            <p class="section-label">COURSE OVERVIEW</p>
+        <section class="hero">
 
-            <h2>IT 4403 – Advanced Web and Mobile Applications</h2>
+            <div class="hero-content">
 
-            <p>
-                This website serves as a central location for coursework
-                completed as part of IT 4403. It provides access to exercises,
-                laboratory activities, and project work developed throughout
-                the course.
-            </p>
-        </div>
+                <div class="university-badge">
+                    KENNESAW STATE UNIVERSITY
+                </div>
 
-        <div class="cards">
+                <p class="course-code">IT 4403</p>
 
-            <article class="card">
-                <div class="card-number">01</div>
-                <h3>Exercises</h3>
-                <p>
-                    Practice activities and exercises related to advanced
-                    web and mobile application development.
+                <h1>
+                    Advanced Web &<br>
+                    Mobile Applications
+                </h1>
+
+                <p class="hero-description">
+                    A dedicated course workspace for organizing practical
+                    exercises, laboratory activities, and application
+                    development projects.
                 </p>
-                <a href="exercises.html">View Exercises →</a>
-            </article>
 
-            <article class="card">
-                <div class="card-number">02</div>
-                <h3>Labs</h3>
-                <p>
-                    Laboratory activities and practical assignments completed
-                    during the course.
-                </p>
-                <a href="labs.html">View Labs →</a>
-            </article>
+                <div class="hero-actions">
+                    <a href="labs.html" class="btn btn-primary">
+                        Explore Labs
+                        <span>→</span>
+                    </a>
 
-            <article class="card">
-                <div class="card-number">03</div>
-                <h3>Projects</h3>
+                    <a href="projects.html" class="btn btn-outline">
+                        View Projects
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="hero-panel">
+
+                <div class="panel-top">
+                    <span class="status-dot"></span>
+                    <span>COURSE PORTAL</span>
+                </div>
+
+                <div class="panel-content">
+
+                    <div class="panel-icon">01</div>
+
+                    <h2>Learn.</h2>
+                    <h2>Build.</h2>
+                    <h2>Apply.</h2>
+
+                    <p>
+                        Practical coursework focused on modern web and
+                        mobile application development.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Course Introduction -->
+        <section class="intro section-container">
+
+            <div class="section-heading">
+
+                <span class="section-tag">ABOUT THE COURSE</span>
+
+                <h2>
+                    Your IT 4403<br>
+                    learning space.
+                </h2>
+
+            </div>
+
+            <div class="intro-text">
+
                 <p>
-                    Course projects demonstrating practical application of
-                    web and mobile development concepts.
+                    This website provides a central location for coursework
+                    completed as part of <strong>IT 4403 – Advanced Web and
+                    Mobile Applications</strong>.
                 </p>
-                <a href="projects.html">View Projects →</a>
-            </article>
+
+                <p>
+                    Use the navigation below to access exercises, laboratory
+                    activities, and course projects as they are developed
+                    throughout the course.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Main Course Cards -->
+        <section class="workspace section-container">
+
+            <div class="workspace-header">
+
+                <div>
+                    <span class="section-tag">COURSE WORKSPACE</span>
+
+                    <h2>
+                        Explore the coursework
+                    </h2>
+                </div>
+
+                <p>
+                    Select an area to view the corresponding course
+                    activities and resources.
+                </p>
+
+            </div>
+
+
+            <div class="course-grid">
+
+                <!-- Exercises -->
+                <a href="exercises.html" class="course-card">
+
+                    <div class="card-top">
+                        <span class="card-number">01</span>
+                        <span class="arrow">↗</span>
+                    </div>
+
+                    <div class="card-icon">
+                        ✦
+                    </div>
+
+                    <h3>Exercises</h3>
+
+                    <p>
+                        Practice activities designed to strengthen concepts
+                        and practical skills in web and mobile application
+                        development.
+                    </p>
+
+                    <span class="card-link">
+                        View Exercises
+                        <span>→</span>
+                    </span>
+
+                </a>
+
+
+                <!-- Labs -->
+                <a href="labs.html" class="course-card featured">
+
+                    <div class="card-top">
+                        <span class="card-number">02</span>
+                        <span class="arrow">↗</span>
+                    </div>
+
+                    <div class="card-icon">
+                        ◈
+                    </div>
+
+                    <h3>Laboratories</h3>
+
+                    <p>
+                        Hands-on laboratory activities that demonstrate
+                        practical implementation of course concepts.
+                    </p>
+
+                    <span class="card-link">
+                        View Labs
+                        <span>→</span>
+                    </span>
+
+                </a>
+
+
+                <!-- Projects -->
+                <a href="projects.html" class="course-card">
+
+                    <div class="card-top">
+                        <span class="card-number">03</span>
+                        <span class="arrow">↗</span>
+                    </div>
+
+                    <div class="card-icon">
+                        ◆
+                    </div>
+
+                    <h3>Projects</h3>
+
+                    <p>
+                        Application projects that bring together skills and
+                        knowledge developed throughout the course.
+                    </p>
+
+                    <span class="card-link">
+                        View Projects
+                        <span>→</span>
+                    </span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Department Section -->
+        <section class="department section-container">
+
+            <div class="department-content">
+
+                <span class="section-tag light-tag">
+                    ACADEMIC AFFILIATION
+                </span>
+
+                <h2>
+                    College of Computing and Software Engineering
+                </h2>
+
+                <p>
+                    Department of Information Technology
+                </p>
+
+                <a
+                    href="https://ccse.kennesaw.edu/it/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="department-link"
+                >
+                    Visit Department of IT
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+            <div class="department-mark">
+                <span>KSU</span>
+                <small>IT</small>
+            </div>
+
+        </section>
+
+
+        <!-- Disclaimer -->
+        <section class="disclaimer section-container">
+
+            <div class="disclaimer-icon">
+                i
+            </div>
+
+            <div>
+                <h3>Academic Disclaimer</h3>
+
+                <p>
+                    This is a student website created for IT 4403 –
+                    Advanced Web and Mobile Applications course projects.
+                    The content is intended for academic purposes.
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="footer-inner">
+
+            <div>
+                <strong>IT 4403</strong>
+                <p>Advanced Web & Mobile Applications</p>
+            </div>
+
+            <div class="footer-right">
+                <p>Kennesaw State University</p>
+                <p>Course Website</p>
+            </div>
 
         </div>
-    </section>
 
-
-    <section class="info-section">
-        <div>
-            <p class="section-label">DEPARTMENT</p>
-            <h2>College of Computing and Software Engineering</h2>
-            <p>
-                Department of Information Technology at Kennesaw State
-                University.
-            </p>
+        <div class="footer-bottom">
+            <span>IT 4403 • Academic Course Workspace</span>
+            <span>© Kennesaw State University</span>
         </div>
 
-        <a
-            href="https://ccse.kennesaw.edu/it/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button primary"
-        >
-            Visit Department of IT
-        </a>
-    </section>
-
-
-    <section class="disclaimer">
-        <strong>Disclaimer</strong>
-        <p>
-            This is a student website created for IT 4403 – Advanced Web and
-            Mobile Applications course projects. The content is intended for
-            academic purposes.
-        </p>
-    </section>
-
-</main>
-
-
-<footer>
-    <p>IT 4403 · Advanced Web and Mobile Applications</p>
-    <p>Kennesaw State University</p>
-</footer>
+    </footer>
 
 </body>
 </html>
-```
